@@ -1,0 +1,688 @@
+/*  FUENTES DE LA PAGINA   */
+@font-face   {
+    font-family: 'nuestros-productos-blue-font';
+    src: url('../assets/Roboto/Roboto-Black.ttf');
+
+    font-family: 'boldblanco';
+    src: url('../assets/Roboto/Roboto-Bold.ttf');
+}
+
+
+ /* ESTILOS NAVBAR  */
+
+ #regular-blue-roboto {
+
+    font-family: 'boldblanco';
+    background: url('../assets/img/bg-overlay.png') no-repeat;
+    font-size: 22px;
+    background-size: cover;
+
+    }
+    
+.navbar-expand-lg {
+    margin-left: auto;
+}
+
+.bp{
+    padding-right: 0px;
+}
+
+.navbar-nav{
+    text-align:center;
+}
+
+.navbar-toggler {
+    margin-left: auto;    
+}
+
+.logoElmers{
+    display: none;
+}
+
+.logosm{
+
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+}
+
+.nav-link{
+    color: #fff !important;
+    
+}
+
+.link-menu{
+    text-align: center;
+    color: #FE8405 !important;
+    font-family: 'boldblanco';
+    font-size: 40px;
+    letter-spacing: 0;
+    text-shadow: -3px -3px 3px #fff, 3px -3px 3px #fff, -3px 3px 3px #fff, 3px 3px 3px #fff;
+
+}
+
+
+
+
+ /* ESTILOS SLIMEPACK CONTAINER  */
+
+ .slimepacktitles{
+    background: url(../assets/img/bg-overlay.png) no-repeat;
+    background-size: cover;
+    position: relative;
+    left: -6px;
+    bottom: 12px;
+}
+
+.slimepacksubt{
+ 
+    margin-top: 25px;
+    text-align: center;
+ }
+
+.colglow{
+    text-align: center;
+}
+
+.elmerGlow{
+
+    width: 209px;
+    max-width: 209px;
+
+ }
+
+.parrafo1{
+
+     font-family: 'boldblanco';
+     color: #fff;
+     font-size: 22px;
+     margin-left: 15px;
+     display: flex;
+     justify-content: center;
+
+ }
+
+ .parrafo1nn{
+
+    font-family: 'boldblanco';
+    color: #fff;
+    font-size: 22px;
+    margin-left: 15px;
+    display: none;
+    justify-content: center;
+
+ }
+
+ .parrafo2nn{
+
+    display: none;
+    justify-content: center;
+    text-align: start;
+    color: #FE8405;
+    font-family: impact;
+    font-size: 40px;
+    letter-spacing: 0;
+    text-shadow: -3px -3px 3px #fff, 3px -3px 3px #fff, -3px 3px 3px #fff, 3px 3px 3px #fff;
+    
+
+ }
+
+.parrafo2{
+
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    color: #FE8405;
+    font-family: impact;
+    font-size: 40px;
+    letter-spacing: 0;
+    text-shadow: -3px -3px 3px #fff, 3px -3px 3px #fff, -3px 3px 3px #fff, 3px 3px 3px #fff;
+    
+ }
+
+.parrafo3{
+    text-align: center;
+    color: #045395;
+    font-family: 'boldblanco';
+    font-size: 40px;
+    letter-spacing: 0;
+    text-shadow: -3px -3px 3px #fff, 3px -3px 3px #fff, -3px 3px 3px #fff, 3px 3px 3px #fff;
+ }
+
+.parrafo4{
+
+    color: #FE8405;
+    font-family: 'boldblanco';
+    letter-spacing: 0;
+    text-shadow: -3px -3px 3px #fff, 3px -3px 3px #fff, -3px 3px 3px #fff, 3px 3px 3px #fff;
+    font-size: 60px;
+    text-align: center;
+
+}
+
+.btn{
+
+   background: #fff;
+   left: -6px;
+   border-radius: 20px;
+   position: relative;
+   text-align: center;
+   color: #E38A2E;
+   font-family: impact;
+   font-size: 22px;
+   letter-spacing: 0;
+   box-shadow: 0px 5px 4px #E38A2F;
+   width: 205px;
+   display: none;
+   
+}
+
+
+
+.btnsm{
+
+    background: #fff;
+    left: -6px;
+    border-radius: 20px;
+    position: relative;
+    text-align: center;
+    color: #E38A2E;
+    font-family: impact;
+    font-size: 22px;
+    letter-spacing: 0;
+    box-shadow: 0px 5px 4px #E38A2F;
+    width: 205px;
+    display: flex;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+    
+ }
+
+
+.btnblue{
+    border-radius: 20px;
+    width: 280px;
+    height: 55px;
+    text-align: center;
+    color: #fff;
+    font-family: 'boldblanco';
+    font-size: 22px;
+    background: #0099FF;
+}
+
+
+
+/* FLECHA estilos */
+
+.elemento{
+   
+    font-size:19px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 26px;
+    margin-bottom: 26px;
+ }
+
+.flecha {
+     font-size:20px !important;
+       
+  }
+   
+.flecha:hover{
+    animation:arrow 1s ease-out infinite !important;
+    color:#229bf4 !important;
+  }
+
+.menuPpal {
+    color: white;
+    font-family: 'boldblanco';
+    display: flex;
+}
+  
+
+
+/*  SECCION APRENDE A HACER SLIM  */
+
+.wavefondo{
+    padding: 0px;
+}
+
+.colsmile{
+    padding-left: 19px;
+    padding-right: 13px;
+}
+
+.smileimg{
+
+    width: 102%;
+    position: relative;
+    right: 8px;
+    bottom: 34px;
+}
+
+.smileimg2{
+    background: url(../assets/img/talleres-bg.png) no-repeat;
+    width: 97%;
+    height: 420px;
+    background-size: contain;
+    margin-top: -120px;
+    margin-left: 4px;
+}
+
+.colpslime{
+    text-align: center;
+    margin-top: 95px;
+}
+
+.parrafo5{
+    color: #FE8405;
+    font-family: 'boldblanco';
+    font-size: 40px;
+}
+
+.parrafo6{
+    margin-bottom: 0px;
+    color: #194F74;
+    font-family: 'nuestros-productos-blue-font';
+    font-size: 20px;
+}
+
+.parrafo7{
+    color: #194F74;
+    font-family: 'nuestros-productos-blue-font';
+    font-size: 20px;
+}
+
+.parrafo8{
+    color: #194F74;
+    font-family: 'nuestros-productos-blue-font';
+    font-size: 20px;
+}
+
+.parrafo9{
+
+    text-align: center;
+    color: #0099FF;
+    font-family: 'boldblanco';
+    font-size: 30px;
+}
+
+.parrafo10{
+
+    text-align: center;
+    color: #194F74;
+    font-family: 'nuestros-productos-blue-font';
+    font-size: 20px;
+
+}
+
+.parrafo11{
+
+    text-align: center;
+    color: #194F74;
+    font-family: 'nuestros-productos-blue-font';
+    font-size: 20px;
+
+}
+
+
+
+/* NUEVOS PRODUCTOS SECCION */
+
+.nuevo-produc{
+
+    position: relative;
+    top: 100px;
+
+}
+
+.rowproduc{
+
+    margin-left: auto;
+    margin-right: auto;
+    text-align: -webkit-center;
+}
+
+.rowproduc > div > img {
+
+        width: 100%;
+}
+
+.card{
+    width: 100%;
+    margin-top: 100px;
+}
+
+.card-text{
+    color: #194F74;
+    font-family: 'nuestros-productos-blue-font';
+    font-size: 20px;
+    text-align: center;
+
+}
+
+.card-header {
+    text-align: center;
+    color: #0099FF;
+    font-family: 'boldblanco';
+    font-size: 24px;
+}
+
+
+/*  FOOTER STILOS*/
+.backfooter{
+        
+    background-size:cover;
+    margin-top: 117px;
+    background: url('../assets/img/bg-overlay.png') no-repeat;
+}
+
+.privacidad{
+    align-self: center;
+    text-align: end;
+    margin-left: -25px;
+    color: #fff;
+    font-family: 'nuestros-productos-blue-font';
+
+}
+
+.btnblue{
+    border-radius: 20px;
+    width: 280px;
+    height: 55px;
+    text-align: center;
+    color: #fff;
+    font-family: 'boldblanco';
+    font-size: 22px;
+    background: #0099FF;
+}
+
+
+.full{
+    width: 100%;
+}
+
+@media (min-width: 768px) {
+
+    /* ESTILOS NAVBAR  */
+
+.logoElmers{
+    display: flex;
+    margin-left: 90px;
+}
+
+
+.nav-item{
+    padding-left: 30px;
+}
+
+.navbar-nav{
+    margin-left: auto;
+    font-family: 'boldblanco';
+}
+
+.bp{
+    padding-right: 50px;
+}
+
+/* ESTILOS SLIMEPACK CONTAINER  */
+
+.slimepacktitles{
+    bottom: 7px;
+    left: 0px;
+}
+
+
+.slimepacksubt{
+    
+    margin-top: 110px;
+    text-align: center;
+    }
+
+
+.btn{
+
+    border-radius: 20px;
+    width: 205px;
+    top: 15px;
+    left: -11px;
+    position: relative;
+    text-align: center;
+    color: #E38A2E;
+    font-family: impact;
+    font-size: 22px;
+    letter-spacing: 0;
+    box-shadow: 0px 5px 4px #E38A2F;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 36px;
+}
+
+.btnsm{
+    display: none;
+}
+
+.elmerGlow{
+    width: 270px;
+    max-width: 270px;
+}
+
+.colglow{
+    text-align: center;
+    align-self: center;
+}
+
+.elemento {
+
+    width: 150px;
+    height: 50px;
+
+}
+
+
+/* ESTILOS APRENDE A HACER SLIM  */
+
+.wavefondo{
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+
+.colsmile{
+
+    padding-left: 7px;
+    padding-right: 9px;
+
+}
+
+.smileimg{
+
+    width: 102%;
+    position: relative;
+    right: 11px;
+    bottom: 45px;
+
+}
+
+.smileimg2{
+
+    background: url(../assets/img/talleres-bg.png) no-repeat;
+    width: 101%;
+    height: 760px;
+    margin-top: -22px;
+    background-size: cover;
+    margin-left: -6px;
+
+}
+
+.smileimg3{
+
+    width: 100%;
+    margin-top: 150px;
+    margin-left: 25px;
+
+}
+
+.colpslime{
+
+    margin-top: 200px;
+    text-align: center;
+
+}
+
+.parrafo1nn{
+
+    font-family: 'boldblanco';
+    color: #fff;
+    font-size: 22px;
+    margin-left: 15px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.parrafo1{
+
+    font-family: 'boldblanco';
+    color: #fff;
+    font-size: 22px;
+    margin-left: 15px;
+    display: none;
+    justify-content: center;
+
+}
+
+
+
+.parrafo2nn{
+
+    display: flex;
+    justify-content: center;
+    text-align: start;
+    color: #FE8405;
+    font-family: impact;
+    font-size: 40px;
+    letter-spacing: 0;
+    text-shadow: -3px -3px 3px #fff, 3px -3px 3px #fff, -3px 3px 3px #fff, 3px 3px 3px #fff;
+    
+ }
+
+ .parrafo2{
+
+    display: none;
+    justify-content: center;
+    text-align: start;
+    color: #FE8405;
+    font-family: impact;
+    font-size: 40px;
+    letter-spacing: 0;
+    text-shadow: -3px -3px 3px #fff, 3px -3px 3px #fff, -3px 3px 3px #fff, 3px 3px 3px #fff;
+    
+ }
+
+
+
+.parrafo5{
+
+    color: #FE8405;
+    font-family: 'boldblanco';
+    font-size: 40px;
+
+}
+
+.parrafo6{
+
+    margin-bottom: 0px;
+    color: #194F74;
+    font-family: 'nuestros-productos-blue-font';
+    font-size: 20px;
+
+}
+
+.parrafo7{
+
+    color: #194F74;
+    font-family: 'nuestros-productos-blue-font';
+    font-size: 20px;
+
+}
+
+.parrafo8{
+
+    color: #194F74;
+    font-family: 'nuestros-productos-blue-font';
+    font-size: 20px;
+
+}
+
+.parrafo9{
+
+    text-align: center;
+    color: #0099FF;
+    font-family: 'boldblanco';
+    font-size: 30px;
+}
+
+.parrafo10{
+    text-align: center;
+    color: #194F74;
+    font-family: 'nuestros-productos-blue-font';
+    font-size: 20px;
+}
+
+.parrafo11{
+    text-align: center;
+    color: #194F74;
+    font-family: 'nuestros-productos-blue-font';
+    font-size: 20px;
+}
+
+
+
+/* NUEVOS PRODUCTOS SECCION */
+
+.nuevo-produc {
+    position: relative;
+    bottom: 87px;
+    top: -17px;
+}
+
+.rowproduc{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.rowproduc > div > img {
+        width: 100%;
+}
+
+.card{
+    width: 223px;
+    text-align: center;
+}
+
+
+/* FOOTER  */
+
+.backfooter{
+
+    background: url('../assets/img/bg-overlay.png') no-repeat;
+    margin-top: 0px;
+}
+
+.btnblue{
+    border-radius: 20px;
+    width: 280px;
+    height: 55px;
+    text-align: center;
+    color: #fff;
+    font-family: 'boldblanco';
+    font-size: 22px;
+    background: #0099FF;
+}
+
+
+}
